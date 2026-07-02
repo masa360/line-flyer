@@ -139,26 +139,26 @@
       flex: 0 0 auto;
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
-      padding: 32px 60px 24px; position: relative; text-align: center;
+      padding: 22px 60px 16px; position: relative; text-align: center;
     }
     .slide-front .hero-label {
       display: inline-block; background: rgba(255,255,255,0.22); color: #fff;
       font-size: 11px; font-weight: 700; letter-spacing: 0.18em;
-      padding: 4px 14px; border-radius: 20px; margin-bottom: 22px;
+      padding: 4px 14px; border-radius: 20px; margin-bottom: 14px;
     }
     .slide-front .hero h1 {
-      color: #fff; font-size: 46px; font-weight: 900;
-      line-height: 1.25; letter-spacing: -0.02em; margin-bottom: 16px;
+      color: #fff; font-size: 38px; font-weight: 900;
+      line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 10px;
     }
     .slide-front .hero h1 em {
       font-style: normal; background: rgba(255,255,255,0.2);
       border-radius: 6px; padding: 0 6px;
     }
     .slide-front .hero-sub {
-      color: rgba(255,255,255,0.95); font-size: 16px; font-weight: 600;
-      line-height: 1.7; margin-bottom: 20px;
+      color: rgba(255,255,255,0.95); font-size: 15px; font-weight: 600;
+      line-height: 1.6; margin-bottom: 0;
     }
-    .slide-front .price-hero { display: flex; align-items: center; gap: 20px; }
+    .slide-front .price-hero { display: flex; align-items: center; gap: 20px; margin-top: 10px; }
     .slide-front .price-note {
       margin-top: 14px; background: rgba(255,255,255,0.16);
       border: 1px solid rgba(255,255,255,0.35); border-radius: 12px;
@@ -167,12 +167,12 @@
     }
     .slide-front .price-note strong { color: #FFE600; font-weight: 800; }
     .slide-front .price-box {
-      background: #fff; border-radius: 16px; padding: 16px 28px;
+      background: #fff; border-radius: 16px; padding: 9px 28px;
       text-align: center; box-shadow: 0 6px 24px rgba(0,0,0,0.15);
     }
     .slide-front .price-box .pb-label { font-size: 11px; color: #888; font-weight: 600; margin-bottom: 2px; }
-    .slide-front .price-box .pb-num   { font-size: 60px; font-weight: 900; color: #00b900; line-height: 1; }
-    .slide-front .price-box .pb-num .yen0 { font-size: 64px; }
+    .slide-front .price-box .pb-num   { font-size: 50px; font-weight: 900; color: #00b900; line-height: 1; }
+    .slide-front .price-box .pb-num .yen0 { font-size: 54px; }
     .slide-front .price-box .pb-unit  { font-size: 13px; color: #555; margin-top: 2px; }
     .slide-front .price-box { position: relative; }
     .slide-front .price-box .zero-pop {
@@ -184,10 +184,10 @@
     .slide-front .vs-arrow { color: rgba(255,255,255,0.7); font-size: 28px; font-weight: 900; }
     .slide-front .price-box-other {
       background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.4);
-      border-radius: 16px; padding: 16px 28px; text-align: center;
+      border-radius: 16px; padding: 9px 28px; text-align: center;
     }
     .slide-front .price-box-other .pb-label { font-size: 11px; color: rgba(255,255,255,0.75); font-weight: 600; margin-bottom: 2px; }
-    .slide-front .price-box-other .pb-num   { font-size: 44px; font-weight: 900; color: #fff; line-height: 1; text-decoration: line-through; opacity: 0.7; }
+    .slide-front .price-box-other .pb-num   { font-size: 38px; font-weight: 900; color: #fff; line-height: 1; text-decoration: line-through; opacity: 0.7; }
     .slide-front .price-box-other .pb-unit  { font-size: 13px; color: rgba(255,255,255,0.7); margin-top: 2px; }
     .slide-front .ratio-badge {
       position: absolute; top: 20px; right: 32px; background: #fff;
@@ -200,12 +200,12 @@
     .slide-front .ratio-badge .r-num .big0 { font-size: 38px; line-height: 1; }
     .slide-front .ratio-badge .r-unit { font-size: 9px; color: #555; font-weight: 700; }
     .slide-front .hero-cta {
-      display: flex; align-items: center; gap: 16px; margin-top: 22px;
+      display: flex; align-items: center; gap: 16px; margin-top: 12px;
       flex-wrap: wrap; justify-content: center;
     }
     .slide-front .hero-cta-qr { text-align: center; }
     .slide-front .hero-cta-qr img {
-      width: 64px; height: 64px; border-radius: 6px; background: #fff;
+      width: 56px; height: 56px; border-radius: 6px; background: #fff;
       padding: 4px; display: block;
     }
     .slide-front .hero-cta-qr span {
@@ -220,8 +220,8 @@
     }
     .slide-front .subsidy-bubble {
       position: relative; display: inline-block; background: #fff3cd;
-      color: #8a6d00; font-size: 15px; font-weight: 900;
-      padding: 9px 20px; border-radius: 24px; margin-top: 14px;
+      color: #8a6d00; font-size: 14px; font-weight: 900;
+      padding: 8px 20px; border-radius: 24px; margin-top: 10px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.18);
     }
     .slide-front .subsidy-bubble::after {
@@ -229,15 +229,51 @@
       border-left: 9px solid transparent; border-right: 9px solid transparent;
       border-bottom: 9px solid #fff3cd;
     }
+    /* 「要するに何を作るか」3ステップ帯 */
+    .slide-front .what-steps {
+      display: flex; align-items: stretch; justify-content: center; gap: 8px;
+      margin-top: 14px; flex-wrap: nowrap;
+    }
+    .slide-front .what-step {
+      background: rgba(255,255,255,0.95); border-radius: 12px;
+      padding: 9px 13px; display: flex; align-items: center; gap: 9px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.14); text-align: left; flex: 1;
+    }
+    .slide-front .what-step .ws-num {
+      flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%;
+      background: #00b900; color: #fff; font-size: 15px; font-weight: 900;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .slide-front .what-step .ws-body { display: flex; flex-direction: column; }
+    .slide-front .what-step .ws-title { font-size: 14px; font-weight: 900; color: #1a1a1a; line-height: 1.3; }
+    .slide-front .what-step .ws-desc { font-size: 10.5px; font-weight: 600; color: #4a6a55; line-height: 1.4; margin-top: 2px; }
+    .slide-front .what-step .ws-desc strong { color: #00963c; font-weight: 900; }
+    .slide-front .what-steps .ws-plus {
+      color: #fff; font-size: 22px; font-weight: 900; align-self: center; flex-shrink: 0;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+    /* 「安い・かんたん・ちょうどいい」自信の吹き出し */
+    .slide-front .cheap-bubble {
+      position: relative; display: inline-block; background: #FFE600;
+      color: #6b5400; font-size: 16px; font-weight: 900;
+      padding: 9px 22px; border-radius: 26px; margin-top: 11px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2); line-height: 1.4;
+    }
+    .slide-front .cheap-bubble span { color: #1a1a1a; }
+    .slide-front .cheap-bubble::before {
+      content: ''; position: absolute; top: -9px; left: 44px;
+      border-left: 9px solid transparent; border-right: 9px solid transparent;
+      border-bottom: 9px solid #FFE600;
+    }
     .slide-front .hero-cta-note {
-      font-size: 15px; color: #fff; font-weight: 600; margin-top: 8px;
-      line-height: 1.7; text-align: center; text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+      font-size: 14px; color: #fff; font-weight: 600; margin-top: 6px;
+      line-height: 1.6; text-align: center; text-shadow: 0 1px 3px rgba(0,0,0,0.25);
     }
     /* CTAの上に置く「登録したら見られる」吹き出し（下向き矢印でボタンを指す） */
     .slide-front .join-bubble {
       position: relative; display: inline-block; background: #fff;
-      color: #1a8a3a; font-size: 14px; font-weight: 800;
-      padding: 10px 22px; border-radius: 24px; margin-bottom: 16px;
+      color: #1a8a3a; font-size: 13.5px; font-weight: 800;
+      padding: 8px 22px; border-radius: 24px; margin: 12px 0 10px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.18); line-height: 1.5;
     }
     .slide-front .join-bubble strong { color: #00963c; font-weight: 900; }
@@ -252,11 +288,11 @@
     .slide-front .easy-banner {
       grid-column: 1 / -1;
       background: linear-gradient(135deg, #00b900, #00c853);
-      color: #fff; padding: 12px 24px; display: flex; align-items: center;
+      color: #fff; padding: 9px 24px; display: flex; align-items: center;
       justify-content: center; gap: 14px; text-align: center;
     }
     .slide-front .easy-banner .easy-main {
-      font-size: 16px; font-weight: 900; line-height: 1.4;
+      font-size: 15px; font-weight: 900; line-height: 1.35;
     }
     .slide-front .easy-banner .easy-main em {
       font-style: normal; background: rgba(255,255,255,0.25);
@@ -286,7 +322,7 @@
     }
     .slide-front .block-right { grid-row: 1; display: grid; grid-template-columns: 1fr 1fr 1fr; }
     .slide-front .feature-col {
-      padding: 18px 16px 16px; border-right: 1px solid #f0f0f0;
+      padding: 14px 16px 14px; border-right: 1px solid #f0f0f0;
       display: flex; flex-direction: column; position: relative;
     }
     .slide-front .feature-col:last-child { border-right: none; }
@@ -462,12 +498,41 @@
       <div class="page slide-front">
         <!-- ヒーロー -->
         <div class="hero">
-          <div class="hero-label">LINE × リピーター × 売上アップ</div>
-          <h1>常連が戻る仕組み、<br>毎月<em>ずっと0円。</em></h1>
+          <div class="hero-label">LINE × 予約 × 自動フォロー</div>
+          <h1>LINE予約 ＋ 自動フォロー、<br><em>まとめて作ります。</em></h1>
           <p class="hero-sub">
-            予約も、お礼も、常連の呼び戻しも、LINEが全部自動。<br>
-            <strong>まずはLINEを見るだけ。それだけでOKです。</strong>
+            お店用もお客様用も、予約システムをまるっとお作り。<br>
+            予約が入ったら、クーポンやお礼も<strong>LINEが自動で配信</strong>します。
           </p>
+
+          <!-- 「要するに何を作るか」3ステップ -->
+          <div class="what-steps">
+            <div class="what-step">
+              <span class="ws-num">1</span>
+              <div class="ws-body">
+                <span class="ws-title">予約システムをお作り</span>
+                <span class="ws-desc">お店用もお客様用も、LINEで完結</span>
+              </div>
+            </div>
+            <span class="ws-plus">＋</span>
+            <div class="what-step">
+              <span class="ws-num">2</span>
+              <div class="ws-body">
+                <span class="ws-title">予約後は自動で配信</span>
+                <span class="ws-desc">クーポン・お礼を自動でお届け</span>
+              </div>
+            </div>
+            <span class="ws-plus">＋</span>
+            <div class="what-step">
+              <span class="ws-num">3</span>
+              <div class="ws-body">
+                <span class="ws-title">配信メニューは色々</span>
+                <span class="ws-desc">おすすめは<strong>誕生日メッセージ</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cheap-bubble">💪 安い・かんたん・ちょうどいい。<span>この3つは、負けません。</span></div>
           <div class="price-hero">
             <div class="price-box-other">
               <div class="pb-label">大手ツール 月額</div>
